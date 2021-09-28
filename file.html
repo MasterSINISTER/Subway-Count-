@@ -1,0 +1,32 @@
+<html>
+    <title >Subway Count App</title>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+      
+    </head>
+    <body>
+       <div class="main-heading"> 
+        <h1 id="heading">People Visited</h1>
+    </div>
+        <div>
+            <form>
+        <div class="inner-content">
+            <h2 class="form-heading">Subway Counter</h2>
+        <h2 id="count-id">0</h2>
+        <button id="add" type="button" onclick=increase()>Increase</button>
+        <br>
+        <button id="save-btn" type="button" onclick="save()">Save</button>
+        <p id="save-el"><label>Previous Entries : </label></p></div>
+        <button id="clear-button" onclick="refresh()">
+            Reset
+        </button>
+    </form>
+    </div>
+        <script src="index.js">
+        </script>
+
+    </body> 
+    </html> 
